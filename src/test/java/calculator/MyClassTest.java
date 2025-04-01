@@ -12,5 +12,6 @@ public class MyClassTest {
         assertEquals (3, myClass.add(1, 2));
         assertEquals (0, myClass.add(1, -1));
         assertEquals (0, myClass.add(0, 0));
+        assertEquals (10, myClass.add(20, -10));
     }
 }
